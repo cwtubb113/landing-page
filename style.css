@@ -80,3 +80,99 @@ ul {
     justify-content: center;
     align-items: center;
 }
+
+.smi {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.smi-head {
+    display: flex;
+    justify-content: center;
+    margin: 48px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.smi-box-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 36px;
+    margin-bottom: 48px;
+    flex-wrap: wrap;
+}
+
+.smi-combo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.smi-box {
+    height: 300px;
+    width: 300px;
+    border: 4px solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+}
+
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+    gap: 12px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    display: flex;
+    width: 800px;
+    align-self: center;
+}
+
+.quote-auth {
+    display: flex;
+    justify-content: end;
+    width: 800px;
+    align-self: center;
+}
+
+.box-box{
+    padding: 120px;
+    color: white ;
+}
+
+.cta-box{
+    background-color: #3882f6;
+    border-radius: 12px;
+    padding: 40px;
+}
+
+.cta-head{
+    font-weight: 800;
+}
+
+.cta-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-info button{
+    border-color: white;
+}
+
+.footer {
+    color:#e5e7eb;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
